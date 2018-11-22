@@ -1,9 +1,12 @@
 header {
-    background-color: #e24647
+    display: flex;
+    background-color: #e24647;
+    justify-content: space-between;
 }
 
 h1,a {
-    color: #fff
+    color: #fff;
+    vertical-align:middle;
 }
 
 h1 {
@@ -11,8 +14,11 @@ h1 {
     font-family: ArialMT;
 }
 
+nav {
+     font-size: 21px;
+}
+
 a {
     font-family: 'Segoe UI', Tahoma;
-    font-size: 21px;
     text-decoration: none;
 }
