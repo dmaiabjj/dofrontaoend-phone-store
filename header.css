@@ -8,9 +8,11 @@ h1,a {
 
 h1 {
     font-size: 40px;
+    font-family: ArialMT;
 }
 
 a {
+    font-family: 'Segoe UI', Tahoma;
     font-size: 21px;
     text-decoration: none;
 }
