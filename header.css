@@ -1,25 +1,23 @@
 header {
-    display: flex;
-    background-color: #e24647;
-    justify-content: space-between;
-}
-
-h1,a {
     color: #fff;
+    background-color: #e24647;
+    overflow: hidden;
 }
 
 h1 {
     font-size: 40px;
-    font-family: Arial;
+    font-family: Arial, 'Roboto Slab', sans-serif;
+    float: left;
 }
 
 nav {
-    padding: 0.5px 0px 15.5px 0px;
+    font-size: 21px;
+    font-family: 'Segoe UI', 'Roboto Slab', sans-serif;
+    float: right;
 }
 
 a { 
-    font-family: SegoeUI;
     text-decoration: none;
-    font-size: 21px;
+    color: inherit;
     height: 28px;
 }
