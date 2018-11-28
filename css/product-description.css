@@ -1,0 +1,52 @@
+.product-description {
+    color: #fff;
+    float: right;
+    clear: both;
+    width: 50%;
+    font-family: "Roboto", Arial,sans-serif;
+}
+
+.product-description .title {
+    margin-top: 154px;
+    font-size: 25px;
+}
+.product-description > .prices {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.prices span {
+    display: inline-block;
+    height: 24px;
+}
+
+.prices span:first-of-type {
+    margin-right: 82px;
+    width: 58px;
+}
+
+.prices.-fair {
+    margin-top: 335px;
+}
+
+.prices.-price {
+    margin-top: 26px;
+}
+
+.description {
+    margin-top: 50px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 1.67;
+}
+.product-description .more{
+    margin-top: 20px;
+}
+.product-description .more > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-description .options{
+    margin-top: 50px;
+}

@@ -6,13 +6,13 @@
 
 .title {
     font-size: 40px;
-    font-family: Arial, 'Roboto Slab', sans-serif;
+    font-family: Arial, 'Roboto', sans-serif;
     float: left;
 }
 
 .navigation {
     font-size: 21px;
-    font-family: 'Segoe UI', 'Roboto Slab', sans-serif;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
     float: right;
 }
 
