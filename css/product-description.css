@@ -35,7 +35,6 @@
 
 .description {
     margin-top: 50px;
-    height: 160px;
     font-size: 18px;
     line-height: 1.67;
 }
@@ -48,5 +47,12 @@
 }
 
 .product-description .options{
-    margin-top: 50px;
+    margin: 98px 0 20px 0;
 }
+
+.product-description .options .-second{
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 65px;
+}
+
