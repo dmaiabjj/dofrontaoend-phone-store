@@ -1,15 +1,28 @@
-.product-description {
+.main {
+    box-sizing: border-box;
+    margin-top: 128px;
+    width: 100%;
+    height: 100%;
+}
+
+.main .figure {
+    background-color: #fff;
+    float: left;
+    clear: right;
+}
+
+.main .product-description {
     color: #fff;
     float: right;
-    clear: both;
+    clear: right;
     width: 50%;
     font-family: "Roboto", Arial,sans-serif;
 }
 
 .product-description .title {
-    margin-top: 154px;
     font-size: 25px;
 }
+
 .product-description > .prices {
     text-transform: uppercase;
     font-size: 20px;
@@ -26,7 +39,7 @@
 }
 
 .prices.-fair {
-    margin-top: 335px;
+    margin-top: 151px;
 }
 
 .prices.-price {
@@ -34,7 +47,7 @@
 }
 
 .description {
-    margin-top: 50px;
+    margin-top: 73px;
     font-size: 18px;
     line-height: 1.67;
 }
