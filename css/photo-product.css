@@ -3,4 +3,8 @@
     height: 554px;
     background-color: #fff;
     vertical-align: middle;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-right: 157px;
+    margin-bottom: 70px;
 }
