@@ -1,71 +1,44 @@
-.main {
-    box-sizing: border-box;
-    margin-top: 128px;
-    width: 100%;
-    height: 100%;
-}
-
-.main .figure {
-    background-color: #fff;
-    float: left;
-    clear: right;
-}
-
-.main .product-description {
+.description-product {
+    font-family: 'Roboto', sans-serif;
     color: #fff;
-    float: right;
-    clear: right;
-    width: 50%;
-    font-family: "Roboto", Arial,sans-serif;
 }
 
-.product-description .title {
+.description-product > .title{
     font-size: 25px;
+    margin-bottom: 100px;
 }
 
-.product-description > .prices {
-    text-transform: uppercase;
+.description-product > .item {
     font-size: 20px;
+    margin-bottom: 28px;
 }
 
-.prices span {
-    display: inline-block;
-    height: 24px;
+.description-product > .item.-info {
+    width: 230px;
+    text-align: right;
 }
 
-.prices span:first-of-type {
+.description-product > .item.-last {
+    margin-bottom: 72px;
+}
+
+.description-product .spotlight {
+    text-transform: uppercase;
     margin-right: 82px;
-    width: 58px;
-}
-
-.prices.-fair {
-    margin-top: 151px;
-}
-
-.prices.-price {
-    margin-top: 26px;
-}
-
-.description {
-    margin-top: 73px;
-    font-size: 18px;
-    line-height: 1.67;
-}
-.product-description .more{
-    margin-top: 20px;
-}
-.product-description .more > a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.product-description .options{
-    margin: 98px 0 20px 0;
-}
-
-.product-description .options .-second{
     float: left;
-    margin-right: 60px;
-    margin-bottom: 65px;
 }
 
+.description-product > .text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.description-product > .text.-more {
+     margin-bottom: 98px;
+}
+
+.description-product .action {
+   color: inherit;
+   text-decoration: none;
+}
