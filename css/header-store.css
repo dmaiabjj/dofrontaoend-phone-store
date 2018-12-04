@@ -13,24 +13,24 @@
     text-transform: uppercase;
 }
 
-.header-store > .search {
-    float: right;
-    width: 360px;
-    margin-right: 65px;
-    background-color: transparent;
-    border-width: 0 0 1px 0;
-    font-family: Arial, 'Roboto', sans-serif;
-    font-size: 20px;
-    color: inherit;
-    padding-left: 7px;
-    padding-bottom: 8px;
-}
-
 .header-store > .navigation {
     font-size: 21px;
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     float: right;
 }
+
+
+.header-store  input[type='search'] {
+    background-color: transparent;
+    border-width: 0 0 1px 0;
+    color: inherit;
+    font-family: Arial, 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    width: 360px;
+    margin-right: 65px;
+}
+
 
 .header-store .action { 
     text-decoration: none;
