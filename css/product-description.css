@@ -39,6 +39,10 @@
     margin-left: 7px;
 }
 
+.description-product > .item .grow:hover {
+    transform: scale(1.1);
+}
+
 .description-product .spotlight {
     text-transform: uppercase;
     margin-right: 82px;
