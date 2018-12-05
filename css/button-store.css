@@ -12,6 +12,7 @@
     line-height: 60px;
     text-decoration: none;
     border:none;
+    cursor: pointer;
 }
 
 .button-store:hover {
