@@ -34,10 +34,28 @@
 
 
 .header-store .action { 
+    display: inline-block;
     text-decoration: none;
     color: inherit;
     height: 28px;
     margin: 0 60px 0 0;
+    border: 0 solid #fff;
+    transition: all 600ms linear;
+}
+
+.header-store .action::after { 
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    transition: width .5s;
+}
+
+
+
+.header-store .action:hover::after { 
+    background: white;
+    width: 100%;
 }
 
 .header-store .action:last-child {
