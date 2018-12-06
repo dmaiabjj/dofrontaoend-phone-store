@@ -30,6 +30,7 @@
     padding: 8px;
     width: 360px;
     margin-right: 65px;
+    vertical-align: bottom;
 }
 
 
@@ -37,26 +38,15 @@
     display: inline-block;
     text-decoration: none;
     color: inherit;
-    height: 28px;
     margin: 0 60px 0 0;
-    border: 0 solid #fff;
-    transition: all 600ms linear;
+    padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
 }
 
-.header-store .action::after { 
-    content: '';
-    display: block;
-    width: 0px;
-    height: 1px;
-    transition: width .5s;
+.header-store .action:hover { 
+    border-bottom-color: #fff;
 }
 
-
-
-.header-store .action:hover::after { 
-    background: white;
-    width: 100%;
-}
 
 .header-store .action:last-child {
     margin: 0;
