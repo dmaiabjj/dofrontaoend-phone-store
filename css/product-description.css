@@ -35,6 +35,10 @@
     cursor: pointer;
 }
 
+.description-product .icon {
+    transition: transform 300ms linear;
+ }
+
 .description-product .icon:hover {
    transform: scale(1.2);
 }
