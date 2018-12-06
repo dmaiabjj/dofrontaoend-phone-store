@@ -40,11 +40,22 @@
     color: inherit;
     margin: 0 60px 0 0;
     padding-bottom: 8px;
-    border-bottom: 1px solid transparent;
+    position: relative;
 }
 
-.header-store .action:hover { 
-    border-bottom-color: #fff;
+.header-store .action::after { 
+    content: "";
+    display: block;
+    transition: width 300ms linear;
+    height: 1px;
+    background-color: #fff;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-store .action:hover:after { 
+    width: 100%;
 }
 
 
