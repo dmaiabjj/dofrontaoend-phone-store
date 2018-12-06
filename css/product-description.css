@@ -20,6 +20,10 @@
    top: 4px;
 }
 
+.description-product > .item.-heart:hover{
+    transform: scale(0.3);
+}
+
 .description-product > .item.-info {
     width: 230px;
     text-align: right;
@@ -33,6 +37,13 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.description-product > .item.-star:hover,
+.description-product > .item.-star:focus,
+.description-product > .item.-star:active{
+    transform: scale(0.8);
+}
+
 
 
 .description-product > .item.-star + .item{
