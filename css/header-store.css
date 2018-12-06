@@ -43,15 +43,15 @@
     position: relative;
 }
 
-.header-store .action::after { 
+.header-store .action:after { 
     content: "";
-    display: block;
     transition: width 300ms linear;
     height: 1px;
     background-color: #fff;
     width: 0;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 .header-store .action:hover:after { 
