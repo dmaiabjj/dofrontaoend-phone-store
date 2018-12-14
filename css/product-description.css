@@ -63,7 +63,6 @@
     margin-bottom: 30px;
 }
 
-
 .description-product > .text.-more {
     margin-bottom: 0;
 }
@@ -77,3 +76,23 @@
     margin-top: 98px;
 }
 
+@media(max-width:1310px) {
+    .description-product {
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+    }
+    .description-product > .title {
+       font-size: 35px;
+       text-align: center;
+    }
+
+    .description-product > .item.-star{
+        float: left;
+        margin-right: 10px;
+    }
+
+    .description-product > .item.-number{
+        padding-top: 4px;
+    }
+}
