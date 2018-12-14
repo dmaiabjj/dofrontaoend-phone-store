@@ -88,6 +88,7 @@
     .header-store {
         padding-left: 30px;
         padding-right: 30px;
+        margin-bottom: 10px;
     }
 
     .header-store  input[type='search'] {
