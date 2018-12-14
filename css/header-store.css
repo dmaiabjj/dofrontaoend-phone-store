@@ -33,6 +33,10 @@
     vertical-align: bottom;
 }
 
+.header-store  input[type='search']::placeholder {
+    color: inherit;
+}
+
 
 .header-store .action { 
     display: inline-block;
