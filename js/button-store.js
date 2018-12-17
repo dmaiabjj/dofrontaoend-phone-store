@@ -1,4 +1,6 @@
-const $button = window.document.querySelector('.-second');
+const $button   = window.document.querySelector('.-second');
+const $cart     = window.document.querySelector('.navigation a:last-child ');
+
 $button.addEventListener("click",(event) => {
-    console.log("Botão capiturado");
+    $cart.innerHTML = "Burpe";
 })
