@@ -1,2 +1,4 @@
 const $button = window.document.querySelector('.-second');
-console.log($button)
+$button.addEventListener("click",(event) => {
+    console.log("Botão capiturado");
+})
