@@ -35,12 +35,17 @@
     cursor: pointer;
 }
 
+.description-product > .-star .icon.-active {
+    background: url('img/star-filled.png') ;
+}
+
+
 .description-product .icon {
     transition: transform 300ms linear;
  }
 
 
-.description-product .icon.-active {
+.description-product .-heart .icon.-active {
     background: #fff;
 }
 
