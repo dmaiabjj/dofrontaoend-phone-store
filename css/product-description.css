@@ -39,6 +39,12 @@
     transition: transform 300ms linear;
  }
 
+
+.description-product .icon.-active {
+    background: #fff;
+}
+
+
 .description-product .icon:hover {
    transform: scale(1.2);
 }
