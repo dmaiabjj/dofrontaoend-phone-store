@@ -1,7 +1,6 @@
 const $heart = window.document.querySelector('.-heart');
 $heart.addEventListener('click',() => {
-    const $img = $heart.querySelector('img');
-    $img.classList.toggle('-active')
+    $heart.classList.toggle('-active')
 })
 
 const $stars = window.document.querySelectorAll('.-star > img');

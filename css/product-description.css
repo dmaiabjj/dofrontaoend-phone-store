@@ -17,7 +17,7 @@
    position: absolute;
    transform: translateX(-100%);
    left: -47px;
-   top: 4px;
+   top: 8px;
    cursor: pointer;
 }
 
@@ -35,24 +35,29 @@
     cursor: pointer;
 }
 
-.description-product > .-star .icon.-active {
-    background: url('img/star-filled.png') ;
-}
-
-
 .description-product .icon {
     transition: transform 300ms linear;
  }
 
-
-.description-product .-heart .icon.-active {
-    background: #fff;
-}
-
-
 .description-product .icon:hover {
-   transform: scale(1.2);
+    transform: scale(1.2);
+ }
+
+.description-product > .item.-active {
+    background: #252c41;
 }
+
+.description-product .icon.-active{
+    display: none;
+ }
+
+ .description-product > .item.-active .icon {
+    display: none;
+ }
+
+ .description-product > .item.-active .icon.-active {
+    display: block;
+ }
 
 .description-product > .item.-star + .item{
     margin-left: 7px;
