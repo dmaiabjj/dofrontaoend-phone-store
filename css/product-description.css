@@ -35,6 +35,7 @@
     cursor: pointer;
 }
 
+
 .description-product .icon {
     transition: transform 300ms linear;
  }
@@ -56,6 +57,19 @@
  }
 
  .description-product > .item.-active .icon.-active {
+    display: block;
+ }
+
+ .description-product > .item .star {
+   display: inline-block;
+}
+
+ .description-product > .item .star.-active > .icon {
+    display: none;
+ }
+
+
+.description-product > .item .star.-active > .-active {
     display: block;
  }
 
