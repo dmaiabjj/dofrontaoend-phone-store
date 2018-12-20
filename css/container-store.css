@@ -17,6 +17,13 @@
     }
 }
 
+@media (max-height:1310px) {
+    .container-store {
+        padding-right: 0px;
+    }
+}
+
+
 @media (max-height:952px) {
     .container-store {
         max-width: 1330px;
@@ -24,3 +31,5 @@
         margin-right: auto;
     }
 }
+
+
