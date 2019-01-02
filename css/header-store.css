@@ -18,7 +18,18 @@
     font-family: "Segoe UI", "Roboto", sans-serif;
     float: right;
   }
-  
+
+  .header-store .search {
+    width: 358px;
+    display: inline-block;
+  }
+
+  .header-store .magnifier {
+    display: none;
+    margin-top: 2px;
+    margin-right: 2px;
+  }
+
   .header-store [type="search"] {
     background: transparent;
     border: none;
@@ -26,10 +37,10 @@
     color: inherit;
     font-family: Arial, "Roboto", sans-serif;
     font-size: 20px;
-    padding: 8px;
-    width: 358px;
-    margin-right: 65px;
+    width: inherit;
     vertical-align: bottom;
+    margin-right: 65px;
+    padding: 8px;
   }
   
   .header-store [type="search"]::placeholder {
@@ -94,18 +105,54 @@
       padding-left: 30px;
       padding-right: 30px;
     }
+
+    .header-store .search {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 5px; 
+    }
+
+    .header-store .search{
+        transform: translateX(-88%);
+        transition: transform ease-in 300ms;
+    }
+
     .header-store [type="search"] {
-      position: absolute;
-      top: 0;
-      left: 0;
       background-color: #fff;
       color: #000;
-      transform: translateX(-88%);
-      transition: transform ease-in 300ms;
+      width: inherit;
     }
-    .header-store [type="search"].-active {
+    
+    .header-store .magnifier {
+        position: absolute;
+        top:0;
+        right: 0;
+        height: 40px;
+        width: 40px;
+      }
+    
+      .header-store .search.-active img:last-of-type {
+        display: block;
+        right: 0;
+        transition: display ease-in 400ms;
+      }
+    
+      .header-store .search.-active img:first-of-type {
+        display: none;
+      }
+
+      .header-store .search.-active {
         transform: translateX(0)
-    }
+      }
+    
+      .header-store .search img:last-of-type {
+        display: none;
+      }
+    
+      .header-store .search img:first-of-type {
+        display: block;
+      }
 
   }
   
