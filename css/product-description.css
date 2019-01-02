@@ -1,151 +1,123 @@
 .description-product {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #fff;
-}
-
-.description-product > .title{
+  }
+  
+  .description-product > .title {
     font-size: 25px;
     margin-bottom: 50px;
-}
-
-.description-product > .item {
+  }
+  
+  .description-product > .item {
     font-size: 20px;
     margin-bottom: 28px;
-}
-
-.description-product > .item.-heart {
-   position: absolute;
-   transform: translateX(-100%);
-   left: -47px;
-   top: 6px;
-   cursor: pointer;
-}
-
-.description-product > .item.-info {
-    width: 230px;
-    text-align: right;
-}
-
-.description-product > .item.-last {
-    margin-bottom: 72px;
-}
-
-.description-product > .item.-star {
+  }
+  
+  .description-product > .item.-heart {
+    position: absolute;
+    transform: translateX(-100%);
+    top: 8px;
+    left: -47px;
+    cursor: pointer;
+    width: 33px;
+    height: 29px;
+  }
+  
+  .description-product > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
-}
-
-
-.description-product .icon {
-    transition: transform 300ms linear;
- }
-
-.description-product .icon:hover {
-    transform: scale(1.2);
- }
-
-.description-product > .item.-active {
-    background: #252c41;
-}
-
-.description-product .icon.-active{
-    display: none;
- }
-
- .description-product > .item.-active .icon {
-    display: none;
- }
-
- .description-product > .item.-active .icon.-active {
-    display: block;
- }
-
- .description-product > .item .star {
-   display: inline-block;
-}
-
- .description-product > .item .star.-active > .icon {
-    display: none;
- }
-
-
-.description-product > .item .star.-active > .-active {
-    display: block;
- }
-
-.description-product > .item.-star + .item{
-    margin-left: 7px;
-}
-
-.description-product > .item .grow:hover {
+  }
+  
+  .description-product .icon {
+    transition: transform 50ms linear;
+  }
+  
+  .description-product .icon:hover {
     transform: scale(1.1);
-}
-
-.description-product .spotlight {
+  }
+  
+  .description-product .item .icon.-active {
+    display: none;
+  }
+  
+  .description-product > .item.-active .icon {
+    display: none;
+  }
+  
+  .description-product > .item.-active .icon.-active {
+    display: block;
+  }
+  
+  .description-product .star {
+    display: inline-block;
+  }
+  
+  .description-product .star.-active > .icon {
+    display: none;
+  }
+  
+  .description-product .star.-active > .-active {
+    display: block;
+  }
+  
+  .description-product > .item.-star + .item {
+    margin-left: 7px;
+  }
+  
+  .description-product > .item.-info {
+    width: 200px;
+    text-align: right;
+  }
+  
+  .description-product > .item.-last {
+    margin-bottom: 72px;
+  }
+  
+  .description-product .contrast {
     text-transform: uppercase;
-    margin-right: 82px;
     float: left;
-}
-
-.description-product > .text {
+  }
+  
+  .description-product > .text {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
-}
-
-.description-product > .text.-more {
+  }
+  
+  .description-product > .text.-more {
     margin-bottom: 0;
-}
-
-.description-product .action {
-   color: inherit;
-   text-decoration: none;
-}
-
-.wrap-button {
-    margin-top: 98px;
-}
-
-
-
-@media(max-width:1310px) {
+  }
+  
+  .description-product .action {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1310px) {
     .description-product {
-        width: 50%;
-        min-width: 655px;
-        margin: 0 auto 60px;
+      width: 50%;
+      min-width: 655px;
+      margin: 0 auto 60px;
     }
+  
     .description-product > .title {
-       font-size: 35px;
-       text-align: center;
+      font-size: 35px;
+      text-align: center;
     }
-
-    .description-product > .item.-star{
-        float: left;
-        margin-right: 10px;
+  
+    .description-product > .item.-star {
+      float: left;
+      margin-right: 10px;
     }
-
-    .description-product > .item.-number{
-        padding-top: 4px;
+    .description-product > .item.-number {
+      padding-top: 4px;
     }
-    
-    .description-product > .item.-heart {
-        transform: none;
-        left: auto;
-     }
-}
-
-@media(max-width:730px) {
+  }
+  
+  @media (max-width: 720px) {
     .description-product {
-        min-width: 90%;
-        width: 90%;
-        top:5px
+      width: 90%;
+      min-width: auto;
     }
-    
-}
-
-@media(max-width:560px) {
-    .description-product > .item.-heart {
-        position: relative;
-     }
-    
-}
+  }
+  

@@ -1,4 +1,5 @@
 .container-store {
+    box-sizing: border-box;
     background-color: #e24647;
     position: absolute;
     top:50%;
@@ -12,8 +13,8 @@
     .container-store {
         position: static;
         transform: none;
-        width: 95%;
-        max-width: 95%;
+        width: 100%;
+        max-width: 100%;
     }
 }
 
