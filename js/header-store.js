@@ -1,5 +1,10 @@
-const $search = document.querySelector('[type=search]');
 
-$search.addEventListener('click',function () {
-    this.classList.toggle('-active');
+const $magnifiers   = document.querySelectorAll('.magnifier');
+
+$magnifiers.forEach($magnifier => {
+    $magnifier.addEventListener('click',function () {
+        const $search       = document.querySelector('.search');
+        $search.classList.toggle('-active');
+    });
 });
+
