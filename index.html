@@ -1,100 +1,137 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Phone Store</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/container-store.css">
-        <link rel="stylesheet" href="css/header-store.css">
-        <link rel="stylesheet" href="css/wrap-product.css">
-        <link rel="stylesheet" href="css/photo-product.css">
-        <link rel="stylesheet" href="css/product-description.css">
-        <link rel="stylesheet" href="css/button-store.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
-    </head>
-    <body>
-        <div class="container-store">
-            <header class="header-store">
-                <h1 class="title">Logo</h1> 
-                <nav class="navigation">
-                    <div class="search"> 
-                        <input type="search" placeholder="Busca">
-                        <img src="img/search-plus.png" class="magnifier" alt="Lupa para a busca">
-                        <img src="img/search-minus.png" class="magnifier" alt="Lupa para a busca">
-                    </div>
-                    <a class="action" href="http://google.com">Produtos</a> 
-                    <a class="action" href="http://google.com">Serviços</a>
-                    <a class="action" href="http://google.com">Carrinho (0)</a>
-                </nav>
-            </header>  
-            <figure class="photo-product" >
-                <img src="img/phone_top.png" class="photo" alt="Fone de ouvido">
-            </figure>
-            <section class="wrap-product">
-                <dl class="description-product">
-                    <dt class="title">
-                        Fone top, feliz e caro
-                    </dt>
-                    <dd class="item -heart">
-                        <img class="icon" src="img/heart.png" alt="Coração" class="grow">
-                        <img class="icon -active" src="img/heart-active.png" alt="Coração" class="grow">
-                    </dd>
-                    <dd class="item -star">
-                        <ol>
-                            <li class="star">
-                                <img class="icon -active" src="img/star-filled.png" class="grow" alt="Estrela do rating">
-                                <img class="icon" src="img/star-not-filled.png" class="grow" alt="Estrela do rating">
-                            </li>
-                            <li class="star">
-                                <img class="icon -active" src="img/star-filled.png" class="grow" alt="Estrela do rating">
-                                <img class="icon" src="img/star-not-filled.png" class="grow" alt="Estrela do rating">
-                            </li>
-                            <li class="star">
-                                <img class="icon -active" src="img/star-filled.png" class="grow" alt="Estrela do rating">
-                                <img class="icon" src="img/star-not-filled.png" class="grow" alt="Estrela do rating">
-                            </li>
-                            <li class="star">
-                                <img class="icon -active" src="img/star-filled.png" class="grow" alt="Estrela do rating">
-                                <img class="icon" src="img/star-not-filled.png" class="grow" alt="Estrela do rating">
-                            </li>
-                            <li class="star">
-                                <img class="icon -active" src="img/star-filled.png" class="grow" alt="Estrela do rating">
-                                <img class="icon" src="img/star-not-filled.png" class="grow" alt="Estrela do rating">
-                            </li>
-                        </ol>
-                    </dd>
-                    <dt class="item -number">
-                        4.0(97)
-                    </dt>
-                    <dd class="item -info">
-                        <strong class="spotlight">Frete</strong>C$ 108
-                    </dd>
-                    <dd class="item -info -last">
-                        <strong class="spotlight">Preço</strong>C$ 340
-                    </dd>
-                    <dd class="text">
-                        Fone TOP com um cor feliz que não tem fio. A cor também é 
-                        algo que impressiona junto com o  seu layout modernão! 
-                        Ele é caro? É! Mas compre que você não vai se arrepender e 
-                        se você se arrepender pode vender no mercado livre..kkkk
-                    </dd>
-                    <dd class="text -more"><a href="" class="action">Saber mais...</a></dd>
-                </dl>
-                <div class="buttons">
-                    <button class="button-store -second">
-                        Adicionar no Carrinho
-                    </button>
-                    <a class="button-store" href="comprar.html">
-                        Comprar 
-                    </a>
-                </div>
-            </section>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width; initial-scale=1.0; user-scalable=yes"
+    />
+    <title>Loja de Fone</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/container-store.css" />
+    <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/input-search.css" />
+    <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
+    <link rel="stylesheet" href="css/button-store.css" />
+  </head>
+
+  <body>
+    <div class="container-store">
+      <header class="header-store">
+        <h1 class="title">Logo</h1>
+
+        <nav class="navigation">
+          <form class="input-search">
+            <input class="content" type="search" placeholder="Buscar" /><!--
+            --><input
+              type="image"
+              class="icon -open -active"
+              src="img/search.svg"
+            /><!--
+            --><input type="image" class="icon -close" src="img/close.svg" />
+          </form>
+          <a class="action" href="http://collabcode.training">Produtos</a>
+          <a class="action" href="http://collabcode.training">Serviço</a>
+          <a class="action -last" href="http://collabcode.training"
+            >Carrinho (10)</a
+          >
+        </nav>
+      </header>
+
+      <figure class="photo-product">
+        <img class="photo" src="img/fone.png" alt="Fone de ouvido" />
+      </figure>
+
+      <section class="wrap-product">
+        <dl class="description-product">
+          <dt class="title">Fone top, feliz e caro</dt>
+
+          <dd class="item -heart">
+            <img class="icon" src="img/heart.png" alt="Like" />
+            <img class="icon -active" src="img/heart-active.png" alt="Like" />
+          </dd>
+
+          <dd class="item -star">
+            <ol>
+              <li class="star">
+                <img class="icon" src="img/star.png" alt="Estrela" />
+                <img
+                  class="icon -active"
+                  src="img/star-active.png"
+                  alt="Estrela"
+                />
+              </li>
+              <li class="star">
+                <img class="icon" src="img/star.png" alt="Estrela" />
+                <img
+                  class="icon -active"
+                  src="img/star-active.png"
+                  alt="Estrela"
+                />
+              </li>
+              <li class="star">
+                <img class="icon" src="img/star.png" alt="Estrela" />
+                <img
+                  class="icon -active"
+                  src="img/star-active.png"
+                  alt="Estrela"
+                />
+              </li>
+              <li class="star">
+                <img class="icon" src="img/star.png" alt="Estrela" />
+                <img
+                  class="icon -active"
+                  src="img/star-active.png"
+                  alt="Estrela"
+                />
+              </li>
+              <li class="star">
+                <img class="icon" src="img/star.png" alt="Estrela" />
+                <img
+                  class="icon -active"
+                  src="img/star-active.png"
+                  alt="Estrela"
+                />
+              </li>
+            </ol>
+          </dd>
+          <dd class="item -number">4.0 (97)</dd>
+          <dd class="item -info">
+            <strong class="contrast">Frete</strong> C$ 108
+          </dd>
+          <dd class="item -info -last">
+            <strong class="contrast">Preço</strong> C$ 340
+          </dd>
+          <dd class="text">
+            Fone TOP com um cor feliz que não tem fio. A cor também é algo que
+            impressiona junto com o seu layout modernão! Ele é caro? É! Mas
+            compre que você não vai se arrepender e se você se arrepender pode
+            vender no mercado livre..kkkk
+          </dd>
+          <dd class="text -more">
+            <a href="" class="action">Saber mais...</a>
+          </dd>
+        </dl>
+
+        <div class="buttons">
+          <button class="button-store -second">Adiciona no carrinho</button>
+
+          <a class="button-store" href="comprar.html">Comprar</a>
         </div>
-        <script src="js/product-description.js"></script>
-        <script src="js/home.js"></script>
-        <script src="js/header-store.js"></script>
-    </body>
+      </section>
+    </div>
+
+    <script src="js/input-search.js"></script>
+    <script src="js/description-product.js"></script>
+    <script src="js/home.js"></script>
+  </body>
 </html>
