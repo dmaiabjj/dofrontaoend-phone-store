@@ -19,6 +19,10 @@
   float: right;
 }
 
+.header-store .list {
+  display: inline;
+}
+
 .header-store .item {
   display: inline-block;
   margin-right: 60px;
@@ -56,7 +60,7 @@
   transform: scale(1);
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1325px) {
   .header-store {
     padding-right: 60px;
   }
@@ -135,7 +139,6 @@
     position: absolute;
     top: 0;
     right: 0;
-
     transform: translateX(100%);
     transition: transform 300ms linear;
   }

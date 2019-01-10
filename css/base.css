@@ -6,6 +6,8 @@ body {
 body {
   background-color: #252a34;
   background-image: linear-gradient(to bottom, #252a34, #ff2e63);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (max-width: 355px) {

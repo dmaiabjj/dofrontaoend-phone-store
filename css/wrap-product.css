@@ -1,6 +1,6 @@
 .wrap-product {
   display: inline-block;
-  width: 554px;
+  width: 500px;
   vertical-align: middle;
   position: relative;
 }
@@ -11,7 +11,7 @@
   transform: translateY(calc(100% + 98px));
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1325px) {
   .wrap-product {
     width: 100%;
   }
